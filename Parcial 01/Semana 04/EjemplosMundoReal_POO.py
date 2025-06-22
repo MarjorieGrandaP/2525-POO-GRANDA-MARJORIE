@@ -2,12 +2,16 @@
 # Clase que representa un libro
 class Libro:
     def __init__(self, titulo, autor, isbn):
+        # Parámetros:
+        # titulo: título del libro (str)
+        # autor: autor del libro (str)
+        # isbn: código identificador del libro (str)
         self.titulo = titulo
         self.autor = autor
         self.isbn = isbn
         self.disponible = True  # True = disponible, False = prestado
 
-    def __str__(self):
+    def __str__(self):        #Método especial para mostrar información del libro al imprimirlo
         estado = "Disponible" if self.disponible else "Prestado"
         return f"{self.titulo} de {self.autor} (ISBN: {self.isbn}) - {estado}"
 
@@ -15,18 +19,26 @@ class Libro:
 # Clase que representa a un usuario
 class Usuario:
     def __init__(self, nombre, id_usuario):
+        # Parámetros:
+        # nombre: nombre del usuario (str)
+        # id_usuario: código identificador del usuario (str)
         self.nombre = nombre
         self.id_usuario = id_usuario
         self.libros_prestados = []
 
     def agregar_libro(self, libro):
+        # Añade un libro a la lista de libros prestados del usuario
+        # Parámetro: libro (objeto de la clase Libro)
         self.libros_prestados.append(libro)
 
     def quitar_libro(self, libro):
+        # Elimina un libro de la lista cuando es devuelto
+        # Parámetro: libro (objeto de la clase Libro)
         if libro in self.libros_prestados:
             self.libros_prestados.remove(libro)
 
     def listar_libros(self):
+        # Muestra los libros actualmente prestados por el usuario
         if not self.libros_prestados:
             print(f"{self.nombre} no tiene libros prestados.")
         else:
