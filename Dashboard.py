@@ -18,14 +18,13 @@ def mostrar_menu():
     # Define la ruta base donde se encuentra el dashboard.py
     ruta_base = os.path.dirname(__file__)
 
-    opciones = {
+    opciones = { # A continuación se agregan las rutas de un trabajo desarrollado en cada semana.
         '1': 'Parcial 01/Semana 02/2.1.Tarea Semana 02.py',
         '2': 'Parcial 01/Semana 03/Programación_POO.py',
         '3': 'Parcial 01/Semana 04/EjemplosMundoReal_POO.py',
         '4': 'Parcial 01/Semana 05/5.1.Tarea Semana 05.py',
         '5': 'Parcial 01/Semana 06/6.1. Tareas Semana 06.py',
         '6': 'Parcial 01/Semana 07/7.1.Tarea Semana 07.py',
-        # Agrega aquí el resto de las rutas de los scripts
     }
 
     while True:
