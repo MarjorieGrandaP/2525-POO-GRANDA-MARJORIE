@@ -19,7 +19,7 @@ class Producto:
         return f"ID: {self.id}, Nombre: {self.nombre}, Cantidad: {self.cantidad}, Precio: ${self.precio:.2f}"
 
 # Clase Inventario
-# -------------------------
+
 class Inventario:
     def __init__(self):
         """
@@ -142,9 +142,8 @@ def menu():
             print("Opción no válida. \n Elige entre las opciones mostradas.")
 
 
-# -------------------------
+
 # Ejecución del programa
-# -------------------------
 if __name__ == "__main__":
     menu()
 
