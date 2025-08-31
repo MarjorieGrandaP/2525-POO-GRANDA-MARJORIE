@@ -19,5 +19,12 @@
         "cantidad": 10,
         "precio": 1.1,
         "fecha": "2025-08-31 10:40:00"
+    },
+    "0013": {
+        "id": "0013",
+        "nombre": "Az\u00facar Monterrey",
+        "cantidad": 10,
+        "precio": 2.75,
+        "fecha": "2025-08-31 14:17:50"
     }
 }
