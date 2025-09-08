@@ -1,0 +1,30 @@
+{
+    "1234": {
+        "id": "1234",
+        "nombre": "Aguacates 2kg",
+        "cantidad": 5,
+        "precio": 3.0,
+        "fecha": "2025-08-31 10:30:00"
+    },
+    "2500": {
+        "id": "2500",
+        "nombre": "Manzana chilena 1kg",
+        "cantidad": 25,
+        "precio": 2.5,
+        "fecha": "2025-08-31 10:35:00"
+    },
+    "7534": {
+        "id": "7534",
+        "nombre": "Botella de agua 1L Vivant",
+        "cantidad": 10,
+        "precio": 1.1,
+        "fecha": "2025-08-31 10:40:00"
+    },
+    "0013": {
+        "id": "0013",
+        "nombre": "Az\u00facar Monterrey",
+        "cantidad": 10,
+        "precio": 2.75,
+        "fecha": "2025-08-31 14:17:50"
+    }
+}
