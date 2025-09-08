@@ -1,0 +1,29 @@
+{
+    "000715": {
+        "nombre": "JUAN ANDRES LAPO",
+        "id_usuario": "000715",
+        "libros_prestados": []
+    },
+    "000718": {
+        "nombre": "JUAN CARLOS REVELO",
+        "id_usuario": "000718",
+        "libros_prestados": [
+            {
+                "titulo": "Biolog\u00eda",
+                "autor": "Curtis, Barnes",
+                "categoria": "Educaci\u00f3n / Biolog\u00eda",
+                "isbn": "978-6071506291"
+            }
+        ]
+    },
+    "0002007": {
+        "nombre": "CARLOS JOSE GALARZA",
+        "id_usuario": "0002007",
+        "libros_prestados": []
+    },
+    "000456": {
+        "nombre": "JESSICA ZU\u00d1IGA",
+        "id_usuario": "000456",
+        "libros_prestados": []
+    }
+}

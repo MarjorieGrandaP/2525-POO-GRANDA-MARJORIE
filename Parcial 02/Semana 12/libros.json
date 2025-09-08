@@ -1,0 +1,26 @@
+{
+    "978-8499890945": {
+        "titulo": "Orgullo y prejuicio",
+        "autor": "Jane Austen",
+        "categoria": "Novela rom\u00e1ntica",
+        "isbn": "978-8499890945"
+    },
+    "978-0062316097": {
+        "titulo": "Sapiens: De animales a dioses",
+        "autor": "Yuval Noah Harari",
+        "categoria": "Historia",
+        "isbn": "978-0062316097"
+    },
+    "978-8499081136": {
+        "titulo": "La teor\u00eda del todo",
+        "autor": "Stephen Hawking",
+        "categoria": "Ciencia",
+        "isbn": "978-8499081136"
+    },
+    "978-0307474728": {
+        "titulo": "Cien a\u00f1os de soledad",
+        "autor": "Gabriel Garc\u00eda M\u00e1rquez",
+        "categoria": "Novela",
+        "isbn": "978-0307474728"
+    }
+}
