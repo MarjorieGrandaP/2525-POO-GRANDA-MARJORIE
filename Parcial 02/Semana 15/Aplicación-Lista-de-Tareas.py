@@ -20,7 +20,7 @@ CONFIG = {
 # Archivo JSON donde se guardan las tareas de manera persistente
 ARCHIVO_TAREAS = "tareas.json"
 
-# ------------------ TOOLTIP (mensajes emergentes) ------------------
+# - TOOLTIP (mensajes emergentes)
 # Clase que muestra un mensaje flotante al pasar el mouse sobre un widget
 class Tooltip:
     def __init__(self, widget, texto):
@@ -51,7 +51,7 @@ class Tooltip:
             self.tooltip.destroy()
             self.tooltip = None
 
-# ------------------ APLICACIÓN PRINCIPAL ------------------
+# APLICACIÓN PRINCIPAL
 class GestorTareas:
     def __init__(self, root):
         self.root = root
@@ -117,7 +117,7 @@ class GestorTareas:
         # Cargar las tareas previas desde el archivo JSON
         self.cargar_tareas()
 
-    # ------------------ FUNCIONES DE LÓGICA ------------------
+    #  FUNCIONES DE LÓGICA
 
     def guardar_tareas(self):
         """Guarda las tareas y sus estados en un archivo JSON."""

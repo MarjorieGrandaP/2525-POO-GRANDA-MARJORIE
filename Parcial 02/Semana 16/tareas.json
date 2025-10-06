@@ -1,0 +1,18 @@
+[
+    {
+        "texto": "✔ Reunión de trabajo con Solangel",
+        "completada": true
+    },
+    {
+        "texto": "Comprar víveres para la semana",
+        "completada": false
+    },
+    {
+        "texto": "Evaluaciones del Segundo Parcial",
+        "completada": false
+    },
+    {
+        "texto": "Desarrollar ejercicios Prácticos con Python",
+        "completada": false
+    }
+]
